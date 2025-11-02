@@ -1,0 +1,33 @@
+.skills-section {
+  padding: 80px 10%;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 1.5rem;
+}
+
+.skills-section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.skills-section li {
+  background: #00adb5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.skills-section li:hover {
+  background: #007b80;
+}
